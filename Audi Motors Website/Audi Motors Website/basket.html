@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Shopping Cart</title>
+    <link rel="stylesheet" href="assets/stylesheets/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+        <a href="index.html">Home</a>
+    </header>
+    <main>
+        <div class="cart">
+            <h2>Your Cart</h2>
+            <div class="cart-items-container">
+                <ul id="cart-items">
+
+                </ul>
+            </div>
+            <div class="total">
+                <p>Total:</p>
+                <p class="price" id="cart-total">$0.00</p>
+            </div>
+            <div class="checkout">
+                <button id="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+        <div class="products">
+            <h2>Available Products</h2>
+            <div class="product-grid">
+                <div class="product" data-id="1" data-name="Audi Q7" data-price="60000">
+                    <img src="assets/images/audiQ7.png" alt="Audi Q7">
+                    <div class="product-info">
+                        <h3>Audi Q7</h3>
+                        <p class="price">$60,000</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product" data-id="2" data-name="Audi R8" data-price="80000">
+                    <img src="assets/images/audiR8.1.png" alt="Audi R8">
+                    <div class="product-info">
+                        <h3>Audi R8</h3>
+                        <p class="price">$130,000</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product" data-id="3" data-name="Audi A1" data-price="20000">
+                    <img src="assets/images/audiA1.png" alt="Audi A1">
+                    <div class="product-info">
+                        <h3>Audi A1</h3>
+                        <p class="price">$20,000</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                <div class="product" data-id="4" data-name="Audi A4" data-price="42765">
+                    <img src="assets/images/audiA4.png" alt="Audi A4">
+                    <div class="product-info">
+                        <h3>Audi A4</h3>
+                        <p class="price">$42,765</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="primary-footer container group">
+        <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter social-icon"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook social-icon"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram social-icon"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fa fa-youtube social-icon"></i></a>
+        <span class="telephone">Telephone: 02871364521</span>
+        <p id="footer"><a href="#top">Back to Top</a></p>
+        <small>&copy; 2024 Audi Motors. All rights reserved.</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
